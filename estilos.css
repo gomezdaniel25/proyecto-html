@@ -20,3 +20,39 @@ iframe {
     max-width: 100%;
     height: auto;
 }
+
+body {
+    background-color: cadetblue;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header,
+main,
+footer {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.header {
+    border: 10px solid red;
+}
+
+.main {
+    border: 10px solid blue;
+}
+
+.footer {
+    border: 10px solid blueviolet;
+}
+
+.header__logo {
+    width: 200px;
+    height: 200px;
+}
+
+.header__titulo {
+    font-size: 2rem;
+}
+
+.header__eslogan {}
