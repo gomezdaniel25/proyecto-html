@@ -80,7 +80,7 @@ footer {
 }
 
 .seccion1__item {
-    background-color: blueviolet;
+    background-color: #004a67;
     border-radius: 1rem;
 }
 
@@ -89,6 +89,7 @@ footer {
     display: block;
     padding: 1rem;
     text-decoration: none;
+    color: gold;
 }
 
 .seccion2 {}
@@ -119,7 +120,8 @@ footer {
     align-items: center;
     border-radius: 1rem;
     flex-direction: column;
-    background-color: blueviolet;
+    background-color: #004a67;
+    color: gold;
 }
 
 .seccion3__enlace {
@@ -134,11 +136,15 @@ footer {
     font-size: 2rem;
 }
 
-.seccion4 {}
+.seccion4 {
+    padding: 1rem;
+}
 
 .seccion4__foto {
     width: 100%;
     height: 150px;
+    object-fit: cover;
+    object-position: unset;
 }
 
 .body__vendidos {
@@ -149,10 +155,40 @@ footer {
     margin: 0 auto;
 }
 
+.body__vendidos__enlace {
+    background-color: #004a67;
+    color: gold;
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
 .body__stock {
     font-family: 'Poppins', sans-serif;
     background-image: url(imagenes/covercon_fort_iconpattern.svg);
     background-size: cover;
     max-width: 600px;
     margin: 0 auto;
+}
+
+.body_stock_lista {}
+
+.body__stock__enlace {
+    background-color: #004a67;
+    color: gold;
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.footer {
+    padding: 1rem;
+}
+
+.footer__parrafo {
+    text-align: center;
 }
